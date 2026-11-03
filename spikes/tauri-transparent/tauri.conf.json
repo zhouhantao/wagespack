@@ -1,0 +1,44 @@
+{
+  "productName": "WageSpark M0",
+  "identifier": "local.wagespark.spike",
+  "build": {
+    "frontendDist": "ui"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "label": "pet",
+        "title": "WageSpark M0 Pet",
+        "width": 144,
+        "height": 160,
+        "decorations": false,
+        "shadow": false,
+        "transparent": true,
+        "alwaysOnTop": true,
+        "resizable": false,
+        "skipTaskbar": true,
+        "x": 240,
+        "y": 240
+      },
+      {
+        "label": "panel",
+        "title": "WageSpark M0 Panel",
+        "url": "panel.html",
+        "width": 300,
+        "height": 160,
+        "decorations": false,
+        "alwaysOnTop": true,
+        "resizable": false,
+        "visible": false,
+        "skipTaskbar": true
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; style-src 'self'; script-src 'self'"
+    }
+  },
+  "bundle": {
+    "active": false
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+target/
+private-assets/
+artifacts/
+playwright-report/
+.playwright-mcp/
+test-results/
+MEMORY.md
+**/gen/schemas/

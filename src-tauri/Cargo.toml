@@ -1,0 +1,16 @@
+[package]
+name = "wagespack"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[build-dependencies]
+tauri-build = "2"
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon"] }
+tauri-plugin-autostart = "2"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
