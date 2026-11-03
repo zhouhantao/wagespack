@@ -25,7 +25,7 @@ Web 生产文件位于 `dist/`，用本地静态服务器打开。Windows EXE �
 
 ## 角色导入
 
-当前仓库支持两种内置美术来源。干净检出的代码使用仓库内的原创占位图。私人本地版在 `private-assets/` 有匹配帧时优先使用用户提供的参考像素。可用 `python scripts/extract-local-pet.py --help` 查看提取参数，提取工具需要 Pillow。含这些帧的 EXE、Web ZIP 和截图属于私人预览。
+GitHub Releases 的 Windows 版内置原画小周、小祖。单独下载的源码使用开发占位图，供无素材环境测试。开发者本地可通过 `private-assets/` 加载有权使用的动作帧。
 
 在「设置 → 角色管理器」选择 PNG 或 WebP。可以单独选择图集 PNG/WebP 和 JSON 清单。选择「预览导入」后保存。每次可保留一个自定义角色，另有两个内置角色。导入失败保留原角色。
 
